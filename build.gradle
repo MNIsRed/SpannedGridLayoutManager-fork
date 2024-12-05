@@ -6,8 +6,9 @@ buildscript {
     ext.dokka_version = '0.9.17'
     ext.buildtools_version = '28.0.3'
     repositories {
-        jcenter()
+        mavenCentral()
         google()
+        maven { url "https://repo.grails.org/grails/core/" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'

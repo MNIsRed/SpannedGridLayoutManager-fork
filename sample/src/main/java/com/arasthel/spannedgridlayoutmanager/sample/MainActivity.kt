@@ -18,7 +18,7 @@ class MainActivity: android.support.v7.app.AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-        val spannedGridLayoutManager = SpannedGridLayoutManager(orientation = VERTICAL, spans = 4)
+        val spannedGridLayoutManager = SpannedGridLayoutManager(orientation = VERTICAL, spans = 3)
         spannedGridLayoutManager.itemOrderIsStable = true
 
         recyclerview.layoutManager = spannedGridLayoutManager
